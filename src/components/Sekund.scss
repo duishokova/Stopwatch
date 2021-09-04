@@ -1,0 +1,56 @@
+$color1:#BC8F8F;
+$color2:#fff;
+$color3: #9ACD32;
+$color4: #DA70D6;
+
+.stopwatch span {
+    background:$color1;
+    color: $color2;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70px;
+  }
+  
+  .stopwatch .stopwatch-btn {
+    background: $color2;
+    margin-top: 30px;
+    margin-left: 5px;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 150px;
+    transition: background 1s;
+    cursor: pointer;
+  }
+  .stopwatch .stopwatch-btn-stop{
+    border: 2px solid $color3;
+    color: $color3;
+  }
+  .stopwatch .stopwatch-btn-reset{
+    border: 2px solid $color4;
+    color: $color4;
+  }
+  
+  .stopwatch .stopwatch-btn-start{
+    border: 2px solid $color1;
+    color: $color1;
+  }
+  .stopwatch .stopwatch-btn-stop:hover {
+    background: $color3;
+    border: 2px solid $color3;
+    color: $color2;
+  .stopwatch .stopwatch-btn-reset:hover {
+    background: $color4;
+    border: 2px solid $color4;
+    color: $color2;
+  }
+  .stopwatch .stopwatch-btn-start:hover {
+    background: $color1;
+    border: 2px solid $color1;
+    color: $color2;
+  }
+}
